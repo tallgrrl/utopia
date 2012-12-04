@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !(\.php$)
+RewriteRule ^(?:(xml|json|render)/+)?([^/.]+)/*(.*)? /index.php?__outmode=$1&__select=$2&__param=$3 [QSA]
+#RewriteRule ^([^/.]+)/*(.*)? /index.php?__select=$1&__param=$2 [QSA,L]
+#RewriteRule ^([^/.]+) $1.php [QSA]
+
+# HTTP error handling
+ErrorDocument 404 /error?e=404
+
