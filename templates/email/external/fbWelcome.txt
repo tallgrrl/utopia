@@ -1,0 +1,10 @@
+This is an email to Say Welcome to kinzel (From Facebook)
+
+Hello  __NAME__.
+Your new kiinzel account can be found at __URL__
+
+We have set your initial password to: __PASS__
+
+PLease log in and change it as soon as possible.
+
+The Kiinzel Team

@@ -1,0 +1,7 @@
+The Emperor has granted you a new Password.
+
+Your username is __USER__.	
+Your new password is __PASS__.
+Log in and change it as soon as possible, and pray you do not forget again.
+
+__URL__

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/kinzel/!svn/ver/1254/templates/email
+END
+newGuild.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/kinzel/!svn/ver/1/templates/email/newGuild.html
+END
+guildInvite.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/kinzel/!svn/ver/1/templates/email/guildInvite.html
+END
+welcome.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/kinzel/!svn/ver/1/templates/email/welcome.html
+END

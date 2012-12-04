@@ -1,0 +1,32 @@
+<div id="headerWrapper" class="fullWidth"><div id="header" class="maxWidth">
+	<div id="logo"></div>
+	<ul id="navigation">
+		<li id="friends" class="btn_global_navigation"><a href="/users"><img alt="Friends" src="/images/icon_friends.png" /><span>People</span></a></li>
+		<li id="messages" class="btn_global_navigation"><a href="/mail"><img alt="Messages" src="/images/icon_message.png" /><span>Mail</span></a></li>
+		<li id="invite" class="btn_global_navigation"><a href="/users/5089d463d84fe90002000006/invites"><img alt="Click to Invite!" src="/images/icon_invite.png" /><span>Invite</span></a></li>
+	</ul>
+	<div id="tools">
+		<div id="searchWrapper">
+			<form accept-charset="UTF-8" action="/search" id="search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+				<div class="inputWrapper round3">
+					<div id="searchGoggle"></div>
+					<input id="searchQuery" name="search" type="text" value="" />
+				</div>
+				<div id="searchTrigger" class="blue btn">
+					<input class="center" name="commit" type="submit" value="Explore" />
+					<div class="right edge"></div>
+				</div>
+			</form>
+		</div>
+		<div id="userName"><span><a href="/profile/<?=$user->id ?>"><?=$user->name ?></a></span></div>
+			<div id="settings" class="dropdown btn_global_navigation">
+				<a href="#"><img alt="Options" src="/images/icon_settings.png" /><span></span></a>
+				<ul class="options fancy round3">
+					<li><a href="/users/5089d463d84fe90002000006/settings" class="round3 category modal">Settings</a></li>
+					<li><a class="category round3 modal" name="#dg_faqs" href="#">FAQs</a></li>
+					<li><a href="/logout" class="round3">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

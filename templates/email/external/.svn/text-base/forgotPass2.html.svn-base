@@ -1,0 +1,10 @@
+<div>
+	
+	<p>The Emperor has granted you a new Password.</p>
+	
+	<p>Your Username is __USER__.<br />Your new password is __PASS__.</p>
+	
+	<p>Log in and change it as soon as possible, and pray you do not forget again.</p>
+	
+	<p><a href="__URL__">__URL__</a></p>
+</div>
