@@ -1,14 +1,12 @@
 <?php
 
-$url = $_SERVER['REQUEST_URI'];
-if(strpos($url,'http://') === 0) {
-   $parts = parse_url($url);
-   $path = $parts['path'];
-} else {
-	$path = $url;
-}
+/**
+ *	index.php. alll
+ */
+$GLOBALS['SITE_PARAMS'] = preg_split('[/]', $_SERVER['REQUEST_URI']);
 
-//trigger_error("PATH=$path");
+$path = $GLOBALS['SITE_PARAMS'][1];
+$_REQUEST['__select'] = '/'.$path;
 
 if($path == "/" || $path == "")
 {
