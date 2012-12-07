@@ -131,6 +131,9 @@
 	}
 	public function display($data, $template)
 	{
+		header("generatedBy: Tracy Lauren");
+		header("Framework: Utopia Framework");
+		 
 		if (!isset($_REQUEST['__outmode']))
 			$_REQUEST['__outmode'] = 'render';
 
