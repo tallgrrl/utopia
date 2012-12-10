@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <head>
 	<? $core->incl($data, 'header.tmpl');  ?>
+	<script>
+		setSpace = function()
+		{
+			$('.mainContainer').css({
+		        position:'absolute',
+		        left: ($(window).width() - $('.mainContainer').outerWidth())/2,
+		        top: ($(window).height() - $('.mainContainer').outerHeight())/2
+		    });
+		}
+		$(window).resize(function(){ setSpace(); });
+
+// To initially run the function:
+
+	$(function(){
+		setSpace();	
+	})
+</script>
 </head>
-<body id="home">
-	Utopia Framework
+<body>
+	<div class="mainContainer">
+		<img src="images/utopialogofinal.png" />
+		<h3>PhP Framework</h3>
+	</div>
 </body>
 </html>
